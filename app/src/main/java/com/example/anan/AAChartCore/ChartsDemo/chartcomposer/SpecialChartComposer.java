@@ -700,6 +700,7 @@ public class SpecialChartComposer {
                 .categories(new String[]{"January", "February", "March", "April", "May", "June",
                         "July", "August", "September", "October", "November", "December"})
                 .dataLabelsEnabled(true)
+                .borderRadius(10f)
                 .inverted(true)//x 轴是否垂直翻转
                 .series(new AASeriesElement[] {
                                 new AASeriesElement()
