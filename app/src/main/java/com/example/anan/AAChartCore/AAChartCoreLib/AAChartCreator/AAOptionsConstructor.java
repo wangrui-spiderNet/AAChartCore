@@ -214,7 +214,7 @@ public class AAOptionsConstructor
                 break;
             case AAChartType.Columnrange:
                 AAColumnrange aaColumnrange = new AAColumnrange()
-                        .borderRadius(0f) //The color of the border surrounding each column or bar
+                        .borderRadius(aaChartModel.borderRadius) //The color of the border surrounding each column or bar
                         .borderWidth(0f) //The corner radius of the border surrounding each column or bar. default：0
                         ;
                 aaPlotOptions.columnrange(aaColumnrange);
